@@ -39,7 +39,7 @@
 					<properties>
 						<property>
 							<name>testnames</name>
-							<value>Anagram</value>
+							<value>TestNGMod06</value>
 						</property>
 					</properties>
 				</configuration>
