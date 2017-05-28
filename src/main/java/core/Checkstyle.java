@@ -7,4 +7,7 @@ public class Checkstyle {
 		System.out.println("Schoolmaster amnd The classroom is anagram? - true");
 	}
 
+	int sumRes(int operand01, int operand02) {
+		return operand01 + operand02;
+	}
 }
