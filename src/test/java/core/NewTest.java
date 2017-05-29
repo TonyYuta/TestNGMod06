@@ -49,4 +49,10 @@ public class NewTest {
 		org.testng.Assert.assertEquals(checkstyle.sumRes(0, 0), 0, "Wrong sum result");
 	}
 	
+	@Test (enabled = true)
+	public void testHW06_07() {
+		checkstyle = new Checkstyle();
+		org.testng.Assert.assertEquals(checkstyle.sumRes(10, 0), 10, "Wrong sum result");
+	}
+	
 }
