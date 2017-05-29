@@ -10,6 +10,7 @@ public class Findbugs {
 	public static boolean A(String name) {
 	//	boolean n = null;
 		boolean n = true;
+	//	boolean n = (Boolean) null;
 		return n;
 	}
 	
@@ -23,6 +24,7 @@ public class Findbugs {
 		int x = 2;
 		int y = 5;
 		double value1 =  x / y;
+
 	}
 
 }
