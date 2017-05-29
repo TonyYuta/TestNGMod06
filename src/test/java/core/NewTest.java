@@ -25,7 +25,6 @@ public class NewTest {
 		org.testng.Assert.assertEquals(checkstyle.sumRes(3, 7), 10, "Wrong sum result");
 	}
 	
-<<<<<<< HEAD
 	@Test (enabled = true)
 	public void testHW06_03() {
 		checkstyle = new Checkstyle();
